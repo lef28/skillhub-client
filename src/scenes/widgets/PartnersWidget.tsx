@@ -1,12 +1,12 @@
 /** @format */
-import { ReactComponent as Harju } from '@/assets/harju.svg'
-import { ReactComponent as Harmet } from '@/assets/harmet.svg'
-import FlexBetween from '@/components/FlexBetween'
-import WidgetWrapper from '@/components/WidgetWrapper'
 import HandshakeOutlinedIcon from '@mui/icons-material/HandshakeOutlined'
 import { Box, Button, Divider, Typography, useTheme } from '@mui/material'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
+import { ReactComponent as Harju } from '@/assets/harju.svg'
+import { ReactComponent as Harmet } from '@/assets/harmet.svg'
+import FlexBetween from '@/components/FlexBetween'
+import WidgetWrapper from '@/components/WidgetWrapper'
 
 function PartnersWidget() {
   const { palette } = useTheme()
@@ -36,7 +36,6 @@ function PartnersWidget() {
       <Box p="1rem 0" className="grayscale">
         <Box
           display="flex"
-          alignItems="center"
           alignItems="center"
           justifyContent="center"
           gap="1rem"
