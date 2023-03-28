@@ -1,3 +1,18 @@
+import { CssBaseline, ThemeProvider } from '@mui/material'
+import { createTheme } from '@mui/material/styles'
+import i18n from 'i18next'
+import LanguageDetector from 'i18next-browser-languagedetector'
+import HttpApi from 'i18next-http-backend'
+import { useMemo } from 'react'
+import { initReactI18next } from 'react-i18next'
+import { useSelector } from 'react-redux'
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Navigate,
+  Route,
+  RouterProvider,
+} from 'react-router-dom'
 import Admin from '@/scenes/admin'
 import Breakdown from '@/scenes/breakdown'
 import Customers from '@/scenes/customers'
@@ -14,21 +29,6 @@ import Performance from '@/scenes/performance'
 import Products from '@/scenes/products'
 import ProfilePage from '@/scenes/profilePage'
 import Transactions from '@/scenes/transactions'
-import { CssBaseline, ThemeProvider } from '@mui/material'
-import { createTheme } from '@mui/material/styles'
-import i18n from 'i18next'
-import LanguageDetector from 'i18next-browser-languagedetector'
-import HttpApi from 'i18next-http-backend'
-import { useMemo } from 'react'
-import { initReactI18next } from 'react-i18next'
-import { useSelector } from 'react-redux'
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Navigate,
-  Route,
-  RouterProvider,
-} from 'react-router-dom'
 import { themeSettings } from './theme'
 
 i18n

@@ -1095,8 +1095,10 @@
   resolved "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.3.0.tgz"
   integrity sha512-AHPmaAx+RYfZz0eYu6Gviiagpmiyw98ySSlQvCUhVGDRtDFe4DBS0x1bSjdF3gqUDYOczB+yYvBTtEylYSdRhg==
 
-"@esbuild/win32-x64@0.16.17":
-  version "0.16.17"
+"@esbuild/win32-x64@0.17.14":
+  version "0.17.14"
+  resolved "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.17.14.tgz"
+  integrity sha512-gPQmsi2DKTaEgG14hc3CHXHp62k8g6qr0Pas+I4lUxRMugGSATh/Bi8Dgusoz9IQ0IfdrvLpco6kujEIBoaogA==
 
 "@eslint/eslintrc@^1.0.4":
   version "1.4.1"
@@ -2694,31 +2696,33 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-esbuild@^0.16.14:
-  version "0.16.17"
+esbuild@^0.17.5:
+  version "0.17.14"
+  resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.17.14.tgz"
+  integrity sha512-vOO5XhmVj/1XQR9NQ1UPq6qvMYL7QFJU57J5fKBKBKxp17uDt5PgxFDb4A2nEiXhr1qQs4x0F5+66hVVw4ruNw==
   optionalDependencies:
-    "@esbuild/android-arm" "0.16.17"
-    "@esbuild/android-arm64" "0.16.17"
-    "@esbuild/android-x64" "0.16.17"
-    "@esbuild/darwin-arm64" "0.16.17"
-    "@esbuild/darwin-x64" "0.16.17"
-    "@esbuild/freebsd-arm64" "0.16.17"
-    "@esbuild/freebsd-x64" "0.16.17"
-    "@esbuild/linux-arm" "0.16.17"
-    "@esbuild/linux-arm64" "0.16.17"
-    "@esbuild/linux-ia32" "0.16.17"
-    "@esbuild/linux-loong64" "0.16.17"
-    "@esbuild/linux-mips64el" "0.16.17"
-    "@esbuild/linux-ppc64" "0.16.17"
-    "@esbuild/linux-riscv64" "0.16.17"
-    "@esbuild/linux-s390x" "0.16.17"
-    "@esbuild/linux-x64" "0.16.17"
-    "@esbuild/netbsd-x64" "0.16.17"
-    "@esbuild/openbsd-x64" "0.16.17"
-    "@esbuild/sunos-x64" "0.16.17"
-    "@esbuild/win32-arm64" "0.16.17"
-    "@esbuild/win32-ia32" "0.16.17"
-    "@esbuild/win32-x64" "0.16.17"
+    "@esbuild/android-arm" "0.17.14"
+    "@esbuild/android-arm64" "0.17.14"
+    "@esbuild/android-x64" "0.17.14"
+    "@esbuild/darwin-arm64" "0.17.14"
+    "@esbuild/darwin-x64" "0.17.14"
+    "@esbuild/freebsd-arm64" "0.17.14"
+    "@esbuild/freebsd-x64" "0.17.14"
+    "@esbuild/linux-arm" "0.17.14"
+    "@esbuild/linux-arm64" "0.17.14"
+    "@esbuild/linux-ia32" "0.17.14"
+    "@esbuild/linux-loong64" "0.17.14"
+    "@esbuild/linux-mips64el" "0.17.14"
+    "@esbuild/linux-ppc64" "0.17.14"
+    "@esbuild/linux-riscv64" "0.17.14"
+    "@esbuild/linux-s390x" "0.17.14"
+    "@esbuild/linux-x64" "0.17.14"
+    "@esbuild/netbsd-x64" "0.17.14"
+    "@esbuild/openbsd-x64" "0.17.14"
+    "@esbuild/sunos-x64" "0.17.14"
+    "@esbuild/win32-arm64" "0.17.14"
+    "@esbuild/win32-ia32" "0.17.14"
+    "@esbuild/win32-x64" "0.17.14"
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -4325,8 +4329,10 @@ rollup-plugin-terser@^7.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-rollup@^1.20.0||^2.0.0||^3.0.0, rollup@^3.10.0, rollup@^3.7.2:
-  version "3.15.0"
+rollup@^1.20.0||^2.0.0||^3.0.0, rollup@^3.18.0, rollup@^3.7.2:
+  version "3.20.2"
+  resolved "https://registry.npmjs.org/rollup/-/rollup-3.20.2.tgz"
+  integrity sha512-3zwkBQl7Ai7MFYQE0y1MeQ15+9jsi7XxfrqwTb/9EK8D9C9+//EBR4M+CuA1KODRaNbFez/lWxA5vhEGZp4MUg==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -4823,13 +4829,15 @@ vite-plugin-svgr@^2.4.0:
     "@rollup/pluginutils" "^5.0.2"
     "@svgr/core" "^6.5.1"
 
-"vite@^2.6.0 || 3 || 4", "vite@^3.1.0 || ^4.0.0", vite@^4.1.0, vite@^4.1.0-beta.0:
-  version "4.1.1"
+"vite@^2.6.0 || 3 || 4", "vite@^3.1.0 || ^4.0.0", vite@^4.1.0-beta.0, vite@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.npmjs.org/vite/-/vite-4.2.1.tgz"
+  integrity sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==
   dependencies:
-    esbuild "^0.16.14"
+    esbuild "^0.17.5"
     postcss "^8.4.21"
     resolve "^1.22.1"
-    rollup "^3.10.0"
+    rollup "^3.18.0"
   optionalDependencies:
     fsevents "~2.3.2"
 
