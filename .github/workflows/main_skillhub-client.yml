@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'skillhub-client'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_13BA71651BB2493686377F0236432168 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BBBEBE10B71B4F3BACB39F741EB6E10F }}
           package: .
